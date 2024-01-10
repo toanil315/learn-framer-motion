@@ -1,8 +1,7 @@
-import { HomeContainer } from '@/containers/HomeContainer';
-import './index.css';
+import CounterContainer from '@/containers/Counter/Counter';
 
 const Home = () => {
-  return <HomeContainer />;
+  return <CounterContainer />;
 };
 
 export default Home;
